@@ -1,0 +1,142 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 feb 2025, 6:10:28 p. m.
+    Author     : Maria y Roberto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    padding: 80px 20px 0;
+}
+
+header {
+    position: fixed;
+    background-color: #1a1a1a;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+aside {
+    position: fixed;
+    background-color: #1a1a1a;
+    top: 80px;
+    left: 0;
+    bottom: 20px;
+    width: 10%;
+    padding: 10px;
+    border-right: 4px solid #00ffcc;
+}
+
+section {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: 262626;
+    top: 80px;
+    left: 10%;
+    bottom: 20px;
+    width: 90%;
+    padding: 10px;
+    border-left: 2px solid #00ffcc;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #00ffcc;
+    color: #0d0d0d;
+    font-size: 12px;
+}
+
+thead tr {
+    background-color: #00ffcc;
+    color: #0d0d0d;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #333;
+    color: #00ffcc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #444;
+    color: #00ffcc;
+}
+
+a {
+    text-decoration: none;
+    background-color: #00ffcc;
+    color: #0d0d0d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #ff0066;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 999px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: white;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-link {
+    font-size: 14px;
+    margin: 0 18px;
+    line-height: 90px;
+    width: max-content;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #333;
+    border: 2px solid #00ffcc;
+}
+
+.nav-menu-link:hover {
+    background-color: #ff0066;
+    border-color: white;
+    transition: 0.5s;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+    color: #00ffcc;
+}
+
