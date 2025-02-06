@@ -39,6 +39,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <p>Con la conclusión de Naruto y Bleach (y los arcos finales de One Piece), la industria ha encontrado nuevos pilares. Aunque no hay consenso oficial, los sucesores más reconocidos son: Demon Slayer, My Hero Academia y Black Clover</p>            
             <p>Dragon Ball influenció a los Tres Grandes, y ellos, a su vez, marcaron la pauta para los shonen de hoy. Demon Slayer, Boku no Hero y Black Clover representan una nueva era, con narrativas más rápidas, tecnología avanzada en animación y una audiencia más global.</p>
             <hr/>
+            <h2>Tabla</h2>
             <article>
                 <table>
                     <thead>
@@ -102,6 +103,78 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                         </tr>
                     </tbody>
                 </table>
+            </article>
+            <h3>Formulario</h3>
+            <article>
+                <header>
+                    <h2>Solicitud de Información</h2>
+                </header>
+
+                <form action="#">
+                    <table border="0" cellspacing="5" cellpadding="5">                        
+                        <tbody>
+                            <tr>
+                                <td>Correo Electronico</td>
+                                <td><input type="email" 
+                                           name="usuario" placeholder="correo@correo.com"
+                                           size="25"/></td>
+                            </tr>
+                            <tr>
+                                <td>Contraseña</td>
+                                <td><input type="password" name="clave"
+                                           size="10"/></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre y apellidos</td>
+                                <td><input type="text" name="nombre" placeholder="Nombre completo"
+                                           size="40"/></td>
+                            </tr>
+                            <tr>
+                                <td>Seleccione un color</td>
+                                <td><input type="color" name="color"/></td>
+                            </tr>
+                            <tr>
+                                <td>Subir una foto</td>
+                                <td><input type="file" name="foto"
+                                           accept="image/*"/></td>
+                            </tr>                       
+                            <tr>
+                                <td>¿Que prefiere?</td>
+                                <td>Ver anime <input type="radio" name="zona" value="1"/>
+                                    Leer Manga <input type="radio" name="zona" value="2"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>¿Que tan geek se considera?</td>
+                                <td>Poco 0 <input type="range" min="0" max="10" step="1"/> 10 Mucho</td>
+                            </tr>
+                            <tr>
+                                <td>Dirección</td>
+                                <td><textarea name="dirección" rows="4" cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Anime favorito</td>
+                                <td><select name="nivel">
+                                        <option value="0">Dragon Ball</option>
+                                        <option value="1">Naruto</option>
+                                        <option value="2">One Piece</option>
+                                        <option value="3">Bleach</option>
+                                        <option value="4">My Hero Academia</option>
+                                        <option value="5">Demon Slayer</option>
+                                        <option value="6">Black Clover</option>
+                                        <option value="7">Otro</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>Acciones</td>
+                                <td><input type="reset" value="Limpiar"/>
+                                    <input type="submit" value="Enviar"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    Juro solemnemente que mis intenciones no son buenas <input type="checkbox" name="jura" required />
+                </form>
             </article>
         </section>
         <footer>
